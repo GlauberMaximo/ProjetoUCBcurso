@@ -1,0 +1,45 @@
+body{
+    display: flex;
+}
+
+div{
+    margin-top: 10px;
+    margin: 15px;
+}
+
+.divisoes{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    background-color: rgb(206, 47, 47);
+    border-radius: 10px;
+}
+
+.divisoes:hover{
+    background-color: rgb(255, 0, 0);
+    border: 1px solid;
+    border-radius: 15px;
+    width: 210px;
+    height: 210px;
+    cursor: pointer;
+}
+
+#div-2{
+    background-color: rgb(48, 48, 228);
+    text-align: center;
+}
+
+#div-2 > iframe{
+    border: none;
+    width: 200px;
+    height: 200px;
+}
+
+#div-2:hover{
+    background-color: rgb(17, 0, 255);
+    border: 1px solid;
+    border-radius: 15px;
+    width: 210px;
+    height: 210px;
+    cursor: pointer;
+}
